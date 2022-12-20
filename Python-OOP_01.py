@@ -1,9 +1,12 @@
 # Python Object-oriented Programming
+# a method is a function that associated with the class.
+# a class is blue print for creating a instances.
+
 
 class Employee:
 
     def __init__(self, first, last, pay):
-        self.first = first
+        self.first = first # you can put it that way --> self.fname = first BUT we are keept things simple
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
