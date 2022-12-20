@@ -1,12 +1,13 @@
-# Python Object-oriented Programming
+# Python Object-oriented Programming #
+# Section 1 ---> Classes and Instances #
 # a method is a function that associated with the class.
 # a class is blue print for creating a instances.
 
 
 class Employee:
 
-    def __init__(self, first, last, pay):
-        self.first = first # you can put it that way --> self.fname = first BUT we are keept things simple
+    def __init__(self, first, last, pay): # By convention you call the instance 'self' but if you want you can change it.
+        self.first = first # you can put it that way --> self.fname = first BUT we are keept things simple.
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + '@company.com'

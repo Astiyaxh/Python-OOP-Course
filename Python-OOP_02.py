@@ -1,4 +1,5 @@
-# Python Object-oriented Programming
+# Python Object-oriented Programming #
+# Section 2 ---> Class Variables #
 
 class Employee:
 
